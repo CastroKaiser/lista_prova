@@ -1,0 +1,7 @@
+Resultados da Pesquisa
+Pop:0
+Rock:3
+Rap:0
+Classicas:0
+MPB:0
+Gospel:0

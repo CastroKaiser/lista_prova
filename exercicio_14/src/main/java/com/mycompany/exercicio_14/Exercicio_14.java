@@ -38,9 +38,9 @@ public class Exercicio_14 {
             
             ler.nextLine();
             
-            mensagem = mensagem + ("ID "+i+" - Nome do funcionario:"+nomeFuncionario[i]+"\nSalario:R$"+salario[i]+"\n\n");
+            mensagem = mensagem + ("ID "+i+" - Nome do funcionario:"+nomeFuncionario[i]+"\nSalario:R$"+salario[i]+"\n");
         }
-        System.out.println("Deseja atualizar as informações de algum funcionario (1 - Sim ou 0 - Nao):");
+        System.out.println("Deseja atualizar as informacoes de algum funcionario (1 - Sim ou 0 - Nao):");
         saida = ler.nextInt();
 
         if (saida == 1) {
