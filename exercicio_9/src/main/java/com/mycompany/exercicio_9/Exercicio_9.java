@@ -21,7 +21,6 @@ public class Exercicio_9 {
         String nome;
         int qtd_itens;
         
-        
         System.out.print("Insira seu nome:");
         nome = ler.nextLine();
         
@@ -45,10 +44,10 @@ public class Exercicio_9 {
            
             ler.nextLine();
             
-            priceOfProdut[i] = (50*(i+1));
+            priceOfProdut[i] = (24.9f*(i+1));
         }
         
-        FileWriter arquivo = new FileWriter("C:\\Users\\c.nunes\\Desktop\\lista_revisao.txt");
+        FileWriter arquivo = new FileWriter("C:\\Users\\edmun\\OneDrive\\Área de Trabalho\\lista_revisão\\produtos.txt");
         PrintWriter gravar = new PrintWriter(arquivo);
         
         for (int i = 0; i < qtd_itens; i++) {
@@ -59,5 +58,7 @@ public class Exercicio_9 {
             JOptionPane.showMessageDialog(null, mensagem);
             gravar.printf("Nome do produto:"+produtos[i]+"\nQuantidade do produto:"+qtdByProduto[i]+"\nTotal do Produto:"+total[i]);
         }
+        arquivo.close();
+        gravar.close();
     }
 }
