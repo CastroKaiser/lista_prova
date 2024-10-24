@@ -1,0 +1,6 @@
+ ID 0 - Nome do funcionario:r
+Salario:R$45.0
+
+ID 1 - Nome do funcionario:f
+Salario:R$34.0
+
