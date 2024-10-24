@@ -23,9 +23,9 @@ public class Exercicio_10 {
         qtdParticipantes = ler.nextInt();
         
         String[] genero = new String[qtdParticipantes];
-        
+        ler.nextLine();
         for (int i = 0; i < qtdParticipantes; i++) {
-            System.out.print("Qual gênero favorito do participante "+1+":");
+            System.out.print("Qual gênero favorito do participante "+(i+1)+":");
             genero[i] = ler.nextLine();
         }
         for (int i = 0; i < qtdParticipantes; i++) {
